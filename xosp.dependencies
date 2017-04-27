@@ -1,6 +1,38 @@
 [
   {
-    "repository":  "android_device_motorola_msm8916-common",
-    "target_path": "device/motorola/msm8916-common"
+    "remote":      "XOSPD",
+    "repository":  "XOSP-Devices/android_device_motorola_msm8916-common",
+    "target_path": "device/motorola/msm8916-common",
+    "revision":    "xosp-n"
+  },
+  {
+    "remote":      "XOSPD",
+    "repository":  "LineageOS/android_kernel_motorola_msm8916",
+    "target_path": "kernel/motorola/msm8916",
+    "revision":    "cm-14.1"
+  },
+  {
+    "remote":      "XOSPD",
+    "repository":  "LineageOS/android_external_bson",
+    "target_path": "external/bson",
+    "revision":    "cm-14.1"
+  },
+  {
+    "remote":      "XOSPD",
+    "repository":  "XOSP-Project/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "revision":    "xosp-n-rebase"
+  },
+  {
+    "remote":      "XOSPD",
+    "repository":  "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "revision":    "cm-14.1"
+  },
+  {
+    "remote":      "XOSPD",
+    "repository":  "TheMuppets/proprietary_vendor_motorola",
+    "target_path": "vendor/motorola",
+    "revision":    "cm-14.1"
   }
 ]
